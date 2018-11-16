@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .grid1{
+        background-color: black;
+        display: grid;
+        grid-template-columns: 100%;
+        height: 50px;
+      }
+      .up{
+        color: grey;
+        text-align: right;
+        margin-top: 10px;
+        font-size: 15px
+      }
+      .down{
+        color: white;
+        text-align: right;
+        font-size: 20px;
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+      }
+      .grid2{
+        display: grid;
+        grid-template-columns:  25% 25% 25% 25%;
+        font-size: 20px;
+        height: 150px;
+        background-color: #d9d9d9;
+
+      }
+      body{
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        font-size: 20px
+
+      }
+      .orange{
+        background-color: orange ;
+        color: white;
+        text-align: center;
+        line-height: 28px;
+      }
+      .grey{
+        color: black;
+        text-align: center;
+        line-height: 28px;
+      }
+      .zero{
+        grid-column-start: 1;
+				grid-column-end: 3;
+        text-align: left;
+      }
+      .obramowanie{
+        border: 1px solid black;
+      }
+      .up2 {
+        position: relative;
+        bottom: 10px;
+      }
+      .zero .position{
+        position: relative;
+        left: 13px;
+      }
+    </style>
+  </head>
+  <body >
+    <div class="grid1" >
+      <div class="up">
+        <div class="up2">0.0</div>
+      </div>
+      <div class="down">5632</div>
+    </div>
+    <div class="grid2">
+      <div class="grey obramowanie">C</div>
+      <div class="grey obramowanie">%</div>
+      <div class="grey obramowanie">&#8592;</div>
+      <div class="orange obramowanie">&#247;</div>
+      <div class="grey obramowanie">7</div>
+      <div class="grey obramowanie">8</div>
+      <div class="grey obramowanie">9</div>
+      <div class="orange obramowanie">x</div>
+      <div class="grey obramowanie">4</div>
+      <div class="grey obramowanie">5</div>
+      <div class="grey obramowanie">6</div>
+      <div class="orange obramowanie">-</div>
+      <div class="grey obramowanie">1</div>
+      <div class="grey obramowanie">2</div>
+      <div class="grey obramowanie">3</div>
+      <div class="orange obramowanie">+</div>
+      <div class="grey obramowanie zero">
+        <div class="position">0</div>
+      </div>
+      <div class="grey obramowanie">.</div>
+      <div class="orange obramowanie">=</div>
+
+
+
+
+    </div>
+
+  </body>
+</html>
