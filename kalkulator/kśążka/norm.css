@@ -1,0 +1,36 @@
+.grid-container .person{
+  display: grid;
+  grid-template-columns: 100%;
+  outline: 1px solid black;
+  grid-template-rows: 52px;
+
+
+
+}
+.grid-container .letters{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  outline: 1px solid black;
+  grid-template-rows: 20px ;
+
+
+}
+.main{
+  height: 300px;
+  background-color: #f8f8ff;
+  width: 90%;
+  margin: auto;
+}
+img{
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.letters{
+  color: #a9a9b9;
+}
+.imie{
+  color: #a9a9b9;
+}
+.main div{
+  float: left;
+}
