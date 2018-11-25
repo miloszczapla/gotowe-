@@ -1,0 +1,40 @@
+.main{
+  height: 600px;
+  width: 500px;
+  background-color: #f8f8ff;
+  margin: auto;
+}
+.main-grid{
+  display: grid;
+  grid-template-columns: 400px 100px;
+  height: 600px;
+  outline: 1px solid black;
+}
+.grid-person{
+  display: grid;
+  grid-template-columns: 150px 250px;
+  height: 120px;
+  outline: 1px solid black;
+}
+.grid-letters{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  height: 600px;
+  outline: 1px solid black;
+}
+.zdjęcie{
+  height: 110px;
+  width: 110px;
+  border: 1px solid green;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px;
+}
+.imie{
+  color: #a9a9b9;
+  padding: 50px 10px;
+}
+.letter{
+  color: #a9a9b9;
+  margin: auto;
+}
