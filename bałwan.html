@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .slope{
+      position:relative;
+      left:60px;
+      width:220px;
+      height:190px;
+      display: inline-block
+    }
+
+    #circle {
+      position: relative;
+      height:100px;
+      width:100px;
+      border: 2px solid #006bb3;
+      border-radius: 50%;
+      background-color: #66c2ff;
+    }
+    .mini{
+      position: absolute;
+      height:5px;
+      width:4px;
+      border-radius: 50%;
+      background-color: white;
+    }
+    .circle{
+      position: absolute;
+      height:10px;
+      width:10px;
+      border: 1px solid  black;
+      border-radius: 50%;
+      background-color: black;
+    }
+    #right{
+      left:20px;
+      top:70px;
+    }
+    .two{
+      transform:scale(1.5);
+      top:4px;
+    }
+    .three{
+      transform:scale(2.2);
+      top:27px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="slope">
+      <div class="circle" id="left"></div>
+      <div class="circle"  id="right"></div>
+      <div class="mini"  id="left"></div>
+      <div class="mini"  id="right"></div>
+      <div id="circle"></div>
+      <div id="circle" class="two"></div>
+      <div id="circle" class="three"></div>
+    </div>
+
+  </body>
+</html>
