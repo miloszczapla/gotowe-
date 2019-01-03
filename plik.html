@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      input[type="checkbox"]:not(:checked) ~ .smile{
+       display:none;
+      }
+      input[type="checkbox"]:checked ~ .sad{
+       display:none;
+      }
+      input{
+        width:0px;
+        heigth:0px;
+        margin:0px;
+      }
+      label{
+        position:relative;
+        display:inline-block;
+        width:60px;
+        height:30px;
+        background-color:blue;
+        border-radius:20px;
+      }
+      .smile{
+        top:1px;
+        position:absolute;
+        border:solid grey 1px;
+        background-color:white;
+        border-radius:50%;
+        width:25px;
+        height:25px;
+        left:2px;
+
+
+      }
+      .sad{
+        top:1px;
+        position:absolute;
+        left:30px;
+        border:solid grey 1px;
+        background-color:red;
+        border-radius:50%;
+        width:25px;
+        height:25px;
+
+      }
+
+
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <label>
+      <input type="checkbox">
+      <span class="smile"></span>
+      <span class="sad"></span>
+    </label>
+  </body>
+</html>
