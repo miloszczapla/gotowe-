@@ -1,0 +1,75 @@
+body{
+  margin: 0px;
+}
+.main{
+
+  background-image: url(menu.jpg);
+  background-repeat: repeat-x;
+  background-size: 400px;
+}
+.mainflex{
+  display: flex;
+  flex-direction: column;
+
+}
+main{
+  display: flex;
+  flex-direction: row;
+
+}
+header{
+  margin: 0px;
+  position: relative;
+  height: 200px;
+  color: blue;
+}
+.left{
+  background-color: rgb(255, 218, 65);
+  height: 400px;
+  width: 40%;
+}
+h2{
+  margin: 0px;
+}
+h3{
+  font-size: 130%;
+}
+h4,h3{
+  text-align: center;
+}
+.left h3 {
+  text-align: center;
+  position: relative;
+  font-size: 130%;
+}
+a:link{
+  color:green;
+}
+a:visited{
+  color:green;
+}
+img{
+  margin: 0px 11%;
+  position: relative;
+  width: 400px
+}
+a{
+  margin-left: 40%;
+  position: relative;
+}
+.center{
+  height: 400px;
+  width: 30%;
+  text-align: center;
+  background-color: rgb(255, 226, 100);
+}
+.right{
+  height: 400px;
+  width: 30%;
+  background-color: rgb(255, 233, 143);
+  text-align: center;
+}
+footer{
+  background-color: rgb(255, 218, 65);
+  color: blue;
+}
